@@ -66,64 +66,6 @@
 
 ## 🛣️ Roadmap
 
-```mermaid
-graph TD
-
-%% ========== FOUNDATIONS ==========
-    subgraph F1[📊 Foundations]
-        A[🎯 Start Here<br/>What is RL? Agents, Rewards, Environments]
-        B[🧮 Math Basics<br/>Probability, Linear Algebra, Calculus, Optimization]
-        C[🎰 Bandits<br/>Exploration vs Exploitation<br/>ε-Greedy, UCB, Thompson Sampling]
-        D[🔄 MDPs<br/>States, Actions, Rewards<br/>Bellman Equations]
-    end
-    
-    A --> B --> C --> D
-
-%% ========== CLASSICAL RL ==========
-    subgraph F2[📚 Classical RL]
-        E[⚡ Dynamic Programming<br/>Value Iteration, Policy Iteration]
-        F[🎲 Monte Carlo Methods<br/>Learning from complete episodes]
-        G[⏰ Temporal Difference (TD)<br/>Bootstrapping, TD(0), n-step, λ-returns]
-        H[🎯 Q-Learning & SARSA<br/>Off-policy vs On-policy Control]
-        I[🔍 Exploration Strategies<br/>ε-greedy, Softmax, Intrinsic Motivation]
-    end
-    
-    D --> E --> F
-    E --> G --> H --> I
-
-%% ========== FUNCTION APPROXIMATION & DEEP RL ==========
-    subgraph F3[🧠 Deep RL Core]
-        J[📈 Function Approximation<br/>Linear models, Features]
-        K[🧠 Deep Q-Networks (DQN)<br/>Replay Buffer, Target Net<br/>Atari Breakthrough]
-        L[🎭 Policy Gradient Methods<br/>REINFORCE Algorithm]
-        M[🎪 Actor-Critic Methods<br/>A2C, A3C, PPO, TRPO]
-        N[🏗️ Model-Based RL<br/>World Models, Planning, Dreamer, MuZero]
-    end
-    
-    I --> J --> K
-    K --> L --> M --> N
-
-%% ========== ADVANCED & FRONTIERS ==========
-    subgraph F4[🚀 Advanced & Research Directions]
-        O[🌈 Rainbow DQN & Variants<br/>Distributional RL, Double DQN, Dueling Networks]
-        P[🧩 Representation Learning<br/>State embeddings, Contrastive RL]
-        Q[🤝 Multi-Agent RL<br/>Cooperation, Competition, Communication]
-        R[🏗️ Hierarchical RL<br/>Options Framework, High/Low-level policies]
-        S[🛡️ Safe & Robust RL<br/>Risk-sensitive, Constrained RL, Adversarial Safety]
-        T[🧬 Meta-RL & Few-Shot<br/>Learning to Learn, Generalization]
-    end
-    
-    N --> O
-    M --> O
-    O --> P --> Q
-    O --> R
-    O --> S
-    P --> T
-    
-```
-
----
-
 <div align="center">
   <img src="_img\rl-map.png" alt="rl-map"/>
 </div>
