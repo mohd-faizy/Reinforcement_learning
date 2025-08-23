@@ -92,12 +92,6 @@ graph TD
     M --> O[🏗️ Hierarchical RL]
     M --> P[🛡️ Safe RL]
     
-    style A fill:#ff9999
-    style B fill:#66b3ff
-    style M fill:#99ff99
-    style N fill:#ffcc99
-    style O fill:#ffcc99
-    style P fill:#ffcc99
 ```
 
 ---
