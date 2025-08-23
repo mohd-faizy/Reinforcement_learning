@@ -50,10 +50,6 @@
     - [📊 Algorithm Implementations](#-algorithm-implementations)
     - [🎥 Training Visualizations](#-training-visualizations)
     - [🔬 Jupyter Notebooks](#-jupyter-notebooks)
-  - [🤝 Contributing](#-contributing)
-    - [🛠️ How to Contribute](#️-how-to-contribute)
-    - [📝 Contribution Guidelines](#-contribution-guidelines)
-    - [🐛 Found a Bug?](#-found-a-bug)
   - [⚖️ License](#️-license)
   - [❤️ Support](#️-support)
   - [🪙 Credits \& Inspiration](#-credits--inspiration)
@@ -231,35 +227,6 @@ jupyter lab
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions from the RL community! Here's how you can help:
-
-### 🛠️ How to Contribute
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/AmazingAlgorithm`)
-3. **Commit** your changes (`git commit -m 'Add some AmazingAlgorithm'`)
-4. **Push** to the branch (`git push origin feature/AmazingAlgorithm`)
-5. **Open** a Pull Request
-
-### 📝 Contribution Guidelines
-
-- ✅ Add tests for new algorithms
-- ✅ Include docstrings and comments
-- ✅ Update README if needed
-- ✅ Follow PEP 8 style guidelines
-- ✅ Add example usage in notebooks
-
-### 🐛 Found a Bug?
-
-Please [open an issue](https://github.com/mohd-faizy/reinforcement-learning/issues) with:
-- Description of the problem
-- Steps to reproduce
-- Expected vs actual behavior
-- Environment details (OS, Python version, etc.)
-
----
 
 ## ⚖️ License
 
