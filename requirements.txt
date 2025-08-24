@@ -1,7 +1,7 @@
 numpy
 pandas
 matplotlib
-
-
-pygame 
+seaborn
+torch
+pygame
 gymnasium
