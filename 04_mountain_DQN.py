@@ -5,12 +5,6 @@ This code trains an AI agent to drive a car up a hill using Deep Q-Learning.
 The car is underpowered, so the agent must learn to build momentum by going
 back and forth before reaching the flag at the top.
 
-IMPROVEMENTS MADE:
-- Better reward shaping to encourage momentum building
-- Larger neural network for better learning capacity
-- Higher learning rate and adjusted hyperparameters
-- Longer training with better exploration schedule
-- Target network updates more frequently
 """
 
 # Import necessary libraries
@@ -272,27 +266,3 @@ else:
     print("❌ Agent still struggling. Consider training longer or adjusting hyperparameters.")
 
 env.close()
-
-"""
-WHY THE IMPROVEMENTS WORK:
-
-1. REWARD SHAPING: The original environment only gives -1 per step, making it hard to learn.
-   Our shaped rewards encourage:
-   - Building momentum (velocity bonus)
-   - Moving in the right direction
-   - Big bonus for reaching the flag
-
-2. LARGER NETWORK: More neurons = better capacity to learn complex policies
-
-3. BETTER HYPERPARAMETERS:
-   - Higher learning rate = faster learning
-   - Slower epsilon decay = more exploration time
-   - More frequent target updates = more stable learning
-
-4. MORE TRAINING: 1000 episodes instead of 500 gives more time to learn
-
-5. GRADIENT CLIPPING: Prevents training instability
-
-The -200 reward means the episode timed out. With these improvements, 
-you should see rewards improve to around -100 to -150 (successful episodes)!
-"""
