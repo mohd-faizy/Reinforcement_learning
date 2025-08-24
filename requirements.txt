@@ -1,4 +1,7 @@
-pygame
 numpy
 pandas
 matplotlib
+
+
+pygame 
+gymnasium
