@@ -14,10 +14,10 @@ print("Initial State:", state)
 def render():
     state_image = env.render()
     plt.imshow(state_image)
-    plt.axis("off")  # hide axis for cleaner visualization
-    plt.show(block=False)
-    plt.pause(0.05)   # smaller pause for smoother animation
-    plt.clf()         # clear frame for next render
+    plt.axis("off")       # hide axis for cleaner visualization
+    plt.show(block=False) # non-blocking show
+    plt.pause(0.05)       # smaller pause for smoother animation
+    plt.clf()             # clear frame for next render
 
 # -------------------------
 # 3. Run Episode

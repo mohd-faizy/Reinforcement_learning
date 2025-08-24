@@ -1,3 +1,9 @@
+'''
+In the classic CartPole environment used in reinforcement learning (like CartPole-v1 from OpenAI Gym or Gymnasium), 
+there are two discrete actions available to the agent:
+    - Action = 0 → Push the cart to the left
+    - Action = 1 → Push the cart to the right
+'''
 import gymnasium as gym
 import matplotlib.pyplot as plt
 
@@ -26,12 +32,13 @@ terminated = False
 truncated = False
 
 while not (terminated or truncated):
-    action = 1  # Always move right
+    action = 1    # Always move right
+    # action = 0  # Always move left
     state, reward, terminated, truncated, info = env.step(action)
     render()
 
-    # Optional debug info
-    print(f"State: {state}, Reward: {reward}, Done: {terminated}, Truncated: {truncated}")
+    # Debug info
+    print(f"State: {state}, Reward: {reward}, Terminated: {terminated}, Truncated: {truncated}")
 
 # -------------------------
 # 4. Cleanup
