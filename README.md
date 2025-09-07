@@ -2,30 +2,16 @@
 
 # 🧠 Reinforcement Learning
 
-*A simple repository to learn Reinforcement Learning with theory, algorithms, and practice.*
+*A comprehensive repository for learning Reinforcement Learning through theory, algorithms, and hands-on practice.*
 
-[**RL Theory**](#rl-theory) |
-[**RL Algorithms**](#rl-algorithms) |
-[**Implementations**](#implementations)  
-[**RL Projects**](#rl-projects) |
-[**RL Notebooks**](#rl-notebooks) |
-[**Experiments & Results**](#experiments--results)
-
-
-![Author](https://img.shields.io/badge/Author-mohd--faizy-blue?style=for-the-badge&logo=github&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.8.0-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.20.0-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Gymnasium](https://img.shields.io/badge/Gymnasium-1.1.1-008000?style=for-the-badge&logo=openai&logoColor=white)
-![Stable-Baselines3](https://img.shields.io/badge/Stable--Baselines3-RL%20Library-00BFFF?style=for-the-badge&logo=python&logoColor=white)
-![RLlib](https://img.shields.io/badge/Ray-RLlib-FFCA28?style=for-the-badge&logo=ray&logoColor=black)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Weights & Biases](https://img.shields.io/badge/Weights%20%26%20Biases-Experiments-FFB000?style=for-the-badge&logo=weightsandbiases&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-004C99?style=for-the-badge&logo=plotly&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+[![Author](https://img.shields.io/badge/Author-mohd--faizy-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mohd-faizy)
+[![Python](https://img.shields.io/badge/Python-3.13%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.8.0-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Gymnasium](https://img.shields.io/badge/Gymnasium-1.2.0-008000?style=for-the-badge&logo=openai&logoColor=white)](https://gymnasium.farama.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 </div>
-
 
 ---
 
@@ -33,23 +19,22 @@
 
 - [🧠 Reinforcement Learning](#-reinforcement-learning)
   - [📚 Table of Contents](#-table-of-contents)
-  - [🛣️ Roadmap](#️-roadmap)
+  - [🛣️ Learning Roadmap](#️-learning-roadmap)
   - [🧬 What is Reinforcement Learning?](#-what-is-reinforcement-learning)
     - [🌟 Real-World Applications](#-real-world-applications)
     - [🛠️ Core Components](#️-core-components)
     - [🧠 RL vs Supervised Learning](#-rl-vs-supervised-learning)
-  - [📍 RL Curriculum](#-rl-curriculum)
+  - [📍 Learning Path](#-learning-path)
     - [🟢 Beginner Level](#-beginner-level)
     - [🟡 Intermediate Level](#-intermediate-level)
     - [🔴 Advanced Level](#-advanced-level)
   - [⚙️ Installation](#️-installation)
     - [📋 Prerequisites](#-prerequisites)
     - [🚀 Quick Setup](#-quick-setup)
-    - [📦 Core Dependencies](#-core-dependencies)
-  - [🚀 Examples \& Demos](#-examples--demos)
+  - [📂 Repository Structure](#-repository-structure)
+  - [🚀 Getting Started](#-getting-started)
     - [📊 Algorithm Implementations](#-algorithm-implementations)
-    - [🎥 Training Visualizations](#-training-visualizations)
-    - [🔬 Jupyter Notebooks](#-jupyter-notebooks)
+    - [📓 Interactive Notebooks](#-interactive-notebooks)
   - [⚖️ License](#️-license)
   - [❤️ Support](#️-support)
   - [🪙 Credits \& Inspiration](#-credits--inspiration)
@@ -60,10 +45,10 @@
 
 ---
 
-## 🛣️ Roadmap
+## 🛣️ Learning Roadmap
 
 <div align="center">
-  <img src="_img\rl-map.png" alt="rl-map"/>
+  <img src="_img/rl-map.png" alt="Reinforcement Learning Roadmap" width="800"/>
 </div>
 
 ---
@@ -110,22 +95,21 @@ Reinforcement Learning (RL) is a branch of machine learning where an **agent** l
 
 ---
 
-
-## 📍 RL Curriculum
+## 📍 Learning Path
 
 ### 🟢 Beginner Level
-- [ ] 🎰 Multi-Armed Bandits
-- [ ] 🔄 Markov Decision Processes (MDPs)
-- [ ] ⚡ Dynamic Programming (Value Iteration, Policy Iteration)
-- [ ] 🎲 Monte Carlo Methods
-- [ ] ⏰ Temporal Difference Learning (TD(0))
+- [x] 🎰 Multi-Armed Bandits
+- [x] 🔄 Markov Decision Processes (MDPs)
+- [x] ⚡ Dynamic Programming (Value & Policy Iteration)
+- [x] 🎲 Monte Carlo Methods
+- [x] ⏰ Temporal Difference Learning (TD)
 
 ### 🟡 Intermediate Level
-- [ ] 🎯 Q-Learning & SARSA
+- [x] 🎯 Q-Learning & SARSA
 - [ ] 🎪 Expected SARSA & Double Q-Learning
 - [ ] 📈 Function Approximation
-- [ ] 🧠 Deep Q-Networks (DQN)
-- [ ] 🔧 DQN Variants (Double DQN, Dueling DQN, Prioritized Replay)
+- [x] 🧠 Deep Q-Networks (DQN)
+- [ ] 🔧 DQN Variants (Double DQN, Dueling DQN)
 
 ### 🔴 Advanced Level
 - [ ] 🎭 Policy Gradient Methods (REINFORCE)
@@ -133,9 +117,8 @@ Reinforcement Learning (RL) is a branch of machine learning where an **agent** l
 - [ ] 🚀 Proximal Policy Optimization (PPO)
 - [ ] 🌟 Deep Deterministic Policy Gradient (DDPG)
 - [ ] 🎯 Soft Actor-Critic (SAC)
-- [ ] 🤝 Multi-Agent Reinforcement Learning (MARL)
+- [ ] 🤝 Multi-Agent Reinforcement Learning
 - [ ] 🏗️ Hierarchical Reinforcement Learning
-- [ ] 🛡️ Safe Reinforcement Learning
 
 ---
 
@@ -143,106 +126,101 @@ Reinforcement Learning (RL) is a branch of machine learning where an **agent** l
 
 ### 📋 Prerequisites
 
-- Python **3.9+**
+- Python **3.13+**
 - [Git](https://git-scm.com/) installed
-- [UV](https://docs.astral.sh/uv/getting-started/installation/) package manager installed
+- [UV](https://docs.astral.sh/uv/getting-started/installation/) package manager (recommended)
 - (Optional) CUDA-compatible GPU for deep RL training
-
----
 
 ### 🚀 Quick Setup
 
 ```bash
 # Clone the repository
 git clone https://github.com/mohd-faizy/Reinforcement_learning.git
-cd reinforcement-learning
+cd Reinforcement_learning
 
-# Create and activate a virtual environment using UV
+# Using UV (recommended)
 uv venv rl_env
 source rl_env/bin/activate   # macOS/Linux
 .\rl_env\Scripts\activate    # Windows
+uv pip install -r requirements.txt
 
-# Install dependencies
-uv add -r requirements.txt
+# Or using pip
+pip install -r requirements.txt
 
-# For GPU support (optional, example: CUDA 12.1)
-uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-```
-
-### 📦 Core Dependencies
-
-```txt
-gymnasium>=0.29.0
-torch>=2.0.0
-tensorflow>=2.13.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-jupyter>=1.0.0
-wandb>=0.15.0
-stable-baselines3>=2.0.0
+# Launch Jupyter Lab to explore notebooks
+jupyter lab
 ```
 
 ---
 
-## 🚀 Examples & Demos
+## 📂 Repository Structure
+
+```
+Reinforcement_learning/
+├── 📁 _img/                          # Images and visualizations
+│   ├── rl-map.png                    # Learning roadmap
+│   ├── frozen-lake.png               # Environment diagrams
+│   └── ...
+├── 📁 00_RL/                         # Basic RL implementations
+│   ├── 02_frozen_lake.py             # FrozenLake environment
+│   ├── 03_mountain_car.py            # MountainCar environment
+│   ├── 04_taxi-parking.py            # Taxi environment
+│   └── 05_cliffwalking.py            # CliffWalking environment
+├── 📁 01_Q-Learning/                 # Q-Learning implementations
+│   ├── 00_Q-Learning.ipynb           # Q-Learning tutorial
+│   ├── 02_cartpole_Q.py              # CartPole with Q-Learning
+│   └── 03_frozen_lake_Q.py           # FrozenLake with Q-Learning
+├── 📁 02_DQN/                        # Deep Q-Network implementations
+│   ├── 00_cartpole_DQN.py            # CartPole with DQN
+│   └── 01_mountain_car_DQN.py        # MountainCar with DQN
+├── 📓 00_RL_intro.ipynb              # Introduction to RL
+├── 📓 01_Markov_Decision_Processes.ipynb
+├── 📓 02_State_&_Action_value.ipynb
+├── 📓 03_Policy_&_Value_Iteration.ipynb
+├── 📓 05_Monte_Carlo_Methods.ipynb
+├── 📓 06_Temporal_Difference_Learning.ipynb
+├── 📓 _Q_vs_DQN.ipynb                # Comparison of Q-Learning vs DQN
+├── 📄 requirements.txt               # Python dependencies
+├── 📄 pyproject.toml                 # Project configuration
+└── 📄 README.md                      # This file
+```
+
+## 🚀 Getting Started
 
 ### 📊 Algorithm Implementations
 
-| Algorithm | Notebook/Script | Environment | Status |
-|-----------|----------------|-------------|---------|
-| 🎰 Multi-Armed Bandit | `bandits/epsilon_greedy.ipynb` | Custom Bandits | ✅ |
-| 🎯 Q-Learning | `tabular/q_learning_frozen_lake.ipynb` | FrozenLake-v1 | ✅ |
-| 🎪 SARSA | `tabular/sarsa_cliff_walking.ipynb` | CliffWalking-v0 | ✅ |
-| 🧠 DQN | `deep_rl/dqn_cartpole.py` | CartPole-v1 | ✅ |
-| 🎮 DQN Atari | `deep_rl/dqn_atari_breakout.py` | ALE/Breakout-v5 | ✅ |
-| 🎭 REINFORCE | `policy_gradient/reinforce_cartpole.py` | CartPole-v1 | ✅ |
-| 🎪 A2C | `actor_critic/a2c_lunar_lander.py` | LunarLander-v2 | ✅ |
-| 🚀 PPO | `advanced/ppo_continuous_control.py` | BipedalWalker-v3 | 🚧 |
+| Algorithm | Implementation | Environment | Status |
+|-----------|----------------|-------------|--------|
+| 🎰 **Multi-Armed Bandit** | `00_RL/` | Custom Bandits | ✅ |
+| 🎯 **Q-Learning** | `01_Q-Learning/` | FrozenLake, CartPole | ✅ |
+| 🧠 **Deep Q-Network (DQN)** | `02_DQN/` | CartPole, MountainCar | ✅ |
+| 🔄 **Value Iteration** | `03_Policy_&_Value_Iteration.ipynb` | GridWorld | ✅ |
+| 🎲 **Monte Carlo** | `05_Monte_Carlo_Methods.ipynb` | Blackjack | ✅ |
+| ⏰ **TD Learning** | `06_Temporal_Difference_Learning.ipynb` | Various | ✅ |
 
-### 🎥 Training Visualizations
+### 📓 Interactive Notebooks
 
-<details>
-<summary>🎮 Click to see training demos</summary>
+Start your RL journey with these comprehensive notebooks:
 
-| Environment | Algorithm | Demo |
-|-------------|-----------|------|
-| CartPole-v1 | DQN | ![CartPole Demo](assets/cartpole_dqn.gif) |
-| LunarLander-v2 | A2C | ![LunarLander Demo](assets/lunar_lander_a2c.gif) |
-| Breakout | DQN | ![Breakout Demo](assets/breakout_dqn.gif) |
-
-</details>
-
-### 🔬 Jupyter Notebooks
-
-Start exploring with our interactive notebooks:
+1. **[00_RL_intro.ipynb](00_RL_intro.ipynb)** - Fundamentals of RL
+2. **[01_Markov_Decision_Processes.ipynb](01_Markov_Decision_Processes.ipynb)** - MDPs and Bellman equations
+3. **[02_State_&_Action_value.ipynb](02_State_&_Action_value.ipynb)** - Value functions
+4. **[03_Policy_&_Value_Iteration.ipynb](03_Policy_&_Value_Iteration.ipynb)** - Dynamic programming
+5. **[05_Monte_Carlo_Methods.ipynb](05_Monte_Carlo_Methods.ipynb)** - MC learning
+6. **[06_Temporal_Difference_Learning.ipynb](06_Temporal_Difference_Learning.ipynb)** - TD methods
+7. **[_Q_vs_DQN.ipynb](_Q_vs_DQN.ipynb)** - Tabular vs Deep RL comparison
 
 ```bash
-# Launch Jupyter Lab
-jupyter lab
-
-# Navigate to notebooks/
-# Start with: 01_introduction_to_rl.ipynb
+# Start with the introduction notebook
+jupyter lab 00_RL_intro.ipynb
 ```
 
 ---
-
 
 ## ⚖️ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```
-MIT License
-
-Copyright (c) 2025 MOHD FAIZY
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction...
-```
-
----
 
 ## ❤️ Support
 
@@ -253,7 +231,6 @@ If this repository helped you learn RL, please consider:
 - 📢 **Sharing** with fellow ML enthusiasts
 - 🐛 **Contributing** improvements and bug fixes
 
-
 ---
 
 ## 🪙 Credits & Inspiration
@@ -263,14 +240,13 @@ This repository builds upon the incredible work of the RL community:
 ### 📚 Foundational Resources
 - 📖 **Sutton & Barto**: *Reinforcement Learning: An Introduction* (The RL Bible)
 - 🧠 **DeepMind**: Pioneering DQN, AlphaGo, and agent architectures
-- 🚀 **OpenAI**: GPT, PPO, and democratizing RL research
+- 🚀 **OpenAI**: Advancing RL research and democratizing AI
 
 ### 🛠️ Open Source Libraries
-- 🏋️ **Stable Baselines3**: High-quality RL implementations
-- 🎯 **Spinning Up (OpenAI)**: Educational RL resource
-- 🎮 **Gymnasium**: Maintained successor to OpenAI Gym
-- ⚡ **Ray RLlib**: Scalable RL library
-- 🧪 **TensorFlow Agents**: TF-based RL library
+- 🎮 **Gymnasium**: Standard RL environment interface
+- 🔥 **PyTorch**: Deep learning framework
+- 📊 **NumPy & Matplotlib**: Scientific computing and visualization
+- 📓 **Jupyter**: Interactive development environment
 
 ### 🎓 Educational Inspiration
 - 📺 **David Silver's RL Course** (DeepMind/UCL)
@@ -279,33 +255,23 @@ This repository builds upon the incredible work of the RL community:
 
 ---
 
-## 🔗 Connect with me  
-
-➤ If you have questions or feedback, feel free to reach out!!!  
-
-[<img align="left" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png" width="32px"/>][twitter]
-[<img align="left" src="https://cdn-icons-png.flaticon.com/512/145/145807.png" width="32px"/>][linkedin]
-[<img align="left" src="https://cdn-icons-png.flaticon.com/512/2626/2626299.png" width="32px"/>][Portfolio]  
-
-[twitter]: https://twitter.com/F4izy  
-[linkedin]: https://www.linkedin.com/in/mohd-faizy/  
-[Portfolio]: https://ai.stackexchange.com/users/36737/faizy?tab=profile  
-
----
+## 🔗 Connect with me
 
 <div align="center">
 
-  <img src="https://github-readme-stats.vercel.app/api?username=mohd-faizy&show_icons=true" width="380px" height="200px" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohd-faizy&layout=compact" width="300px" height="200px" />
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/F4izy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohd-faizy/)
+[![Stack Exchange](https://img.shields.io/badge/Stack_Exchange-1E5397?style=for-the-badge&logo=stack-exchange&logoColor=white)](https://ai.stackexchange.com/users/36737/faizy)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mohd-faizy)
 
 </div>
 
-
-
 ---
 
 <div align="center">
-  
-**⭐ Star this repo if you found it helpful! ⭐**
+
+**⭐ Star this repository if you found it helpful! ⭐**
+
+*Happy Learning! 🚀*
 
 </div>
